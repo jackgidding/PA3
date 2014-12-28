@@ -48,7 +48,7 @@ rankhospital <- function(state, outcome, num="best") {
   }
   if (outcome == conditions[3]) {
     ocData[,23] <- suppressWarnings(as.numeric(ocData[,23]))
-    useCol <- cnames[3]
+    useCol <- cNames[3]
   }
   
   ## Split the overall data by state and get just the state we're interested in
